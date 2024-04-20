@@ -1,0 +1,46 @@
+.container{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.h4{
+    font-size: 17px;
+    color:#f3530e;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.toolDiv{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.toolDiv:hover{
+    opacity: 0.6;
+}
+
+.toolDiv:hover .toolName{
+    border: 1px solid #343434;
+}
+
+.toolHeading{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.toolName{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-weight: 400;
+    border: 1px solid cadetblue;
+    transition: 1s;
+}

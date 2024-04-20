@@ -1,0 +1,187 @@
+.container{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.h4{
+    font-size: 17px;
+    color:#f3530e;
+    margin-bottom: 20px;
+}
+
+.inputName{
+    width:400px;
+    height:50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border:0px solid black;
+    border-bottom: 1px solid #727171;
+    resize: none;
+    color: #d8cecb;
+}
+
+.inputNameError{
+    width:400px;
+    height:50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border:0px solid black;
+    border-bottom: 1px solid #f3530e;
+    resize: none;
+    color: #d8cecb;
+}
+
+.inputEmail{
+    width:400px;
+    height:50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border:0px solid black;
+    border-bottom: 1px solid #727171;
+    resize: none;
+    color: #d8cecb;
+}
+
+.inputEmailError{
+    width:400px;
+    height:50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border:0px solid black;
+    border-bottom: 1px solid #f3530e;
+    resize: none;
+    color: #d8cecb;
+}
+
+.inputText{
+    width:400px;
+    height:50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border:0px solid black;
+    border-bottom: 1px solid #727171;
+    resize: none;
+    color: #d8cecb;
+    margin-top: 50px;
+}
+
+.inputTextError{
+    width:400px;
+    height:50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border:0px solid black;
+    border-bottom: 1px solid #f3530e;
+    resize: none;
+    color: #d8cecb;
+    margin-top: 50px;
+}
+
+.button{
+    padding:10px 15px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 300px;
+}
+
+.buttonDisabled{
+    padding:10px 15px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 300px;
+    opacity: 0.3;
+}
+
+.error{
+    color:#f3530e;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.success{
+    color:cadetblue;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+
+/*autocomplete, suggested text that browser provides*/
+.inputName:-webkit-autofill, .inputText:-webkit-autofill, .inputEmail:-webkit-autofill, .inputNameError:-webkit-autofill, .inputEmailError:-webkit-autofill, .inputTextError:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0 1000px #343434 inset !important;
+    -webkit-text-fill-color: #d8cecb !important;
+  }
+  /*customized placeholder*/
+  .inputName::placeholder {
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputName::-ms-input-placeholder { /* Edge 12-18 */
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputNameError::placeholder {
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputNameError::-ms-input-placeholder { /* Edge 12-18 */
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputEmail::placeholder {
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputEmail::-ms-input-placeholder {
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputEmailError::placeholder {
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputEmailError::-ms-input-placeholder {
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputText::placeholder {
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputText::-ms-input-placeholder { /* Edge 12-18 */
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputTextError::placeholder { /* Edge 12-18 */
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .inputTextError::-ms-input-placeholder { /* Edge 12-18 */
+    color: #8f8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*customized scrollbar*/
+  .inputText::-webkit-scrollbar{
+    width:3px;
+  }
+  .inputText::-webkit-scrollbar-thumb{
+    background: #727171;  
+  }
+  .inputText::-webkit-scrollbar-thumb:hover{
+    background: #8f8d8d; 
+  }
+  .inputTextError::-webkit-scrollbar{
+    width:2px;
+  }
+  .inputTextError::-webkit-scrollbar-thumb{
+    background: #727171;
+  }
+  .inputTextError::-webkit-scrollbar-thumb:hover{
+    background: #8f8d8d;
+  }
+  .inputText:focus, .inputTextError:focus, .inputName:focus, .inputNameError:focus, .inputEmail:focus, .inputEmailError:focus{
+    outline: none;
+  }

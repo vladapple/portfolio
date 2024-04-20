@@ -1,0 +1,122 @@
+.container{
+    text-align: left;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fullStack{
+    font-size: 22px;
+    margin-bottom: 5px;
+    color:#f3530e;
+}
+
+.aboutText{
+    font-size: 14px;
+    margin-bottom: 100px;
+    line-height: 20px;
+}
+
+.menu {
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 5px;
+    height:30px;
+}
+
+.menu:hover{
+    cursor: pointer;
+    color: #f3530e;
+}
+
+.menu:hover .line{
+   width: 100px; 
+   background-color: #f3530e;
+}
+
+.menu:hover .word{
+    color: #f3530e;
+ }
+  
+.line {
+    width: 50px;
+    height: 1.5px;
+    background-color: #878480;
+    border-radius: 15px;
+    margin-right: 10px;
+    transition: 1s;
+}
+  
+.word {
+    transition: 1s;
+    color: #878480;
+}
+
+.lineActive {
+    width: 100px;
+    height: 1.5px;
+    background-color: #f3530e;
+    border-radius: 15px;
+    margin-right: 10px;
+    transition: 1s;
+}
+  
+.wordActive {
+    transition: 1s;
+    color: #f3530e;
+}
+
+.icons{
+    margin-top: 110px;
+    font-size: 23px;
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+.icon:hover{
+    margin-right: 20px;
+    opacity:0.5;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.imgSmall{
+    width:28px;
+    border-radius: 50%;
+    transition: opacity 0.3s ease-in-out;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+.imgSmallHidden {
+    width:28px;
+    border-radius: 50%;
+    opacity: 0;
+}
+  
+.imgLarge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width:130px;
+    border-radius: 50%;
+}
+
+
+
+  
+  
