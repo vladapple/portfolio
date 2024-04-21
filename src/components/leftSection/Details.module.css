@@ -86,19 +86,29 @@ h2{
 
 .imgContainer {
     position: relative;
+    cursor: pointer;
 }
 
 .imgSmall{
     width:28px;
     border-radius: 50%;
     transition: opacity 0.3s ease-in-out;
-    animation: spin 5s linear infinite;
+    animation: spin 5s ease-in-out;
 }
-
+/*
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+*/
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
   
 .imgSmallHidden {
     width:28px;
@@ -116,6 +126,29 @@ h2{
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+
+    .aboutText{
+        margin-bottom: 0px;
+    }
+
+    .icons{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 30px;
+    }
+    .imgLarge {
+        width:80px;
+    }
+}
 
 
   

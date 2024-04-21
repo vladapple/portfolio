@@ -11,7 +11,7 @@
 }
 
 .inputName{
-    width:400px;
+    width:100%;
     height:50px;
     margin-bottom: 20px;
     padding: 5px;
@@ -22,7 +22,7 @@
 }
 
 .inputNameError{
-    width:400px;
+    width:100%;
     height:50px;
     margin-bottom: 20px;
     padding: 5px;
@@ -33,7 +33,7 @@
 }
 
 .inputEmail{
-    width:400px;
+    width:100%;
     height:50px;
     margin-bottom: 20px;
     padding: 5px;
@@ -44,7 +44,7 @@
 }
 
 .inputEmailError{
-    width:400px;
+    width:100%;
     height:50px;
     margin-bottom: 20px;
     padding: 5px;
@@ -55,7 +55,7 @@
 }
 
 .inputText{
-    width:400px;
+    width:100%;
     height:50px;
     margin-bottom: 20px;
     padding: 5px;
@@ -67,7 +67,7 @@
 }
 
 .inputTextError{
-    width:400px;
+    width:100%;
     height:50px;
     margin-bottom: 20px;
     padding: 5px;
@@ -184,4 +184,14 @@
   }
   .inputText:focus, .inputTextError:focus, .inputName:focus, .inputNameError:focus, .inputEmail:focus, .inputEmailError:focus{
     outline: none;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .button{
+      margin-bottom: 50px;
+  }
+  
+  .buttonDisabled{
+      margin-bottom: 50px;
+  }
   }
