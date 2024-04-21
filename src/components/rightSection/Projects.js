@@ -13,7 +13,8 @@ function Projects(){
       tech: ["ReactJS", "Express", "NodeJS", "MongoDB", "AWS S3", "Heroku"],
       git: "https://github.com/vladapple/veleax",
       demo: "https://www.veleax.com",
-      image: "https://veleax.s3.us-east-2.amazonaws.com/veleax.JPG"
+      image: "https://veleax.s3.us-east-2.amazonaws.com/veleax.JPG",
+      access: "private"
     },
     {
       name: "Moonrise Movies",
@@ -21,7 +22,8 @@ function Projects(){
       tech: ["ASP.NET Core", "ASP.NET Identity", "Entity Framework", "Google Charts API", "Microsoft SQL Server", "Azure Storage Blobs", "Azure Application"],
       git: "https://github.com/vladapple/MoonriseMovies",
       demo: "https://moonrisemovies.azurewebsites.net/",
-      image: "https://veleax.s3.us-east-2.amazonaws.com/moonrise.JPG"
+      image: "https://veleax.s3.us-east-2.amazonaws.com/moonrise.JPG",
+      access: "public"
     },
     {
       name: "Green Horn Recruits",
@@ -29,7 +31,8 @@ function Projects(){
       tech: ["WPF", "C#", "Azure", "Microsoft SQL Server"],
       git: "https://github.com/vladapple/GreenHorn",
       demo: "https://github.com/vladapple/GreenHorn",
-      image: "https://veleax.s3.us-east-2.amazonaws.com/Green+horn+recruits.JPG"
+      image: "https://veleax.s3.us-east-2.amazonaws.com/Green+horn+recruits.JPG",
+      access: "public"
     }
   ]
   return (
@@ -48,7 +51,12 @@ function Projects(){
                       <button key={item.toString()} className={`${ProjectsCSS.toolName}`}>{item}</button>
                     ))}
                     <div className={`${ProjectsCSS.icons}`}>
-                      <a href={`${project.git}`} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={`${ProjectsCSS.icon}`}/></a>  
+                      {project.access === "private" ? 
+                      (
+                        <FontAwesomeIcon icon={faGithub} className={`${ProjectsCSS.icon1}`} title="Private repository"/>
+                      ):(
+                        <a href={`${project.git}`} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={`${ProjectsCSS.icon}`}/></a>
+                      )}
                       <a href={`${project.demo}`} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDesktop} size="sm" className={`${ProjectsCSS.icon}`}/></a>
                     </div> 
                   </div>
