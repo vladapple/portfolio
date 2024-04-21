@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vladapple.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -46,6 +47,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://vladapple.github.io/portfolio"
+  }
 }
