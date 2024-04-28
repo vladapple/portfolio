@@ -78,8 +78,8 @@ function Details(){
               </h2> 
               <h4 className={`${DetailsCSS.fullStack}`}>Full Stack Developer</h4>
               <h5 className={`${DetailsCSS.aboutText}`}>
-                  I'm a full-stack application developer dedicated to crafting<br></br> 
-                  seamless digital experiences by leveraging my expertise<br></br>
+                  I'm a full-stack application developer dedicated to crafting 
+                  seamless digital experiences by leveraging my expertise
                   in front-end and back-end technologies.
               </h5>
               <div className={`${DetailsCSS.menu}`} onClick={() => handleItemClick('#about')}>
