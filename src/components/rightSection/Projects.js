@@ -17,6 +17,15 @@ function Projects(){
       access: "private"
     },
     {
+      name: "KinoKlik",
+      desc: "This custom-built solution was tailored specifically for KinoKlik Company, which offers Canadian Video On Demand (VOD) film marketing & streaming platform. In this platform, filmmakers create Electronic Press Kits displaying information about their films, such as posters, shorts, medium and long synopsises, cast and crew headshots and biographies, information to help film industry professionals visualize the films.",
+      tech: ["ReactJS", "Redux", "Express", "NodeJS", "MongoDB", "AWS S3"],
+      git: "https://github.com/KinoklikMern/KinoklikMERN",
+      demo: "https://www.kinoklik.ca/",
+      image: "https://veleax.s3.us-east-2.amazonaws.com/kinoklik.JPG",
+      access: "private"
+    },
+    {
       name: "Moonrise Movies",
       desc: "This collaborative college project initiative aims to develop an application facilitating customers in accessing real-time information about the screenings at drive-in theaters, including schedules, movie titles, and pertinent details. Additionally, the platform will enable users to contribute feedback through ratings and reviews of the cinematic experiences.",
       tech: ["ASP.NET Core", "ASP.NET Identity", "Entity Framework", "Google Charts API", "Microsoft SQL Server", "Azure Storage Blobs", "Azure Application"],
