@@ -13,10 +13,10 @@ function Details(){
       const scrollPosition = window.scrollY;
 
       // Calculate the scroll position for each section
-      const about = document.querySelector('#about').offsetTop;
-      const skills = document.querySelector('#skills').offsetTop;
-      const projects = document.querySelector('#projects').offsetTop;
-      const contact = document.querySelector('#contact').offsetTop;
+      const about = document.querySelector('#about').offsetTop-100;
+      const skills = document.querySelector('#skills').offsetTop-100;
+      const projects = document.querySelector('#projects').offsetTop-100;
+      const contact = document.querySelector('#contact').offsetTop-100;
 
       // Determine which section is currently in view
       if (scrollPosition >= about && scrollPosition < skills) {
