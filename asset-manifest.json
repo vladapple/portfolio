@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa85b645.css",
+    "main.css": "/static/css/main.d2edcb95.css",
     "main.js": "/static/js/main.7935050f.js",
     "static/media/Portfolio_CV.pdf": "/static/media/Portfolio_CV.99f3361e74bcec92346e.pdf",
     "static/media/vlad.jpeg": "/static/media/vlad.7c45a877210ad608c7e6.jpeg",
     "index.html": "/index.html",
-    "main.aa85b645.css.map": "/static/css/main.aa85b645.css.map",
+    "main.d2edcb95.css.map": "/static/css/main.d2edcb95.css.map",
     "main.7935050f.js.map": "/static/js/main.7935050f.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa85b645.css",
+    "static/css/main.d2edcb95.css",
     "static/js/main.7935050f.js"
   ]
 }
