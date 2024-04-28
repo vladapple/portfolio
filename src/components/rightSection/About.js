@@ -11,7 +11,7 @@ function About(){
               <h4 className={`${AboutCSS.h4}`}>ABOUT</h4>
               <p className={`${AboutCSS.aboutText}`}>
                   In 2021, I transitioned into programming, graduating from 
-                  <a href="https://johnabbott.qc.ca" target="_blank" rel="noreferrer" className={`${AboutCSS.link}`}> John Abbott College's</a> full-stack application development program in 2023. During an internship at KinoKlik, I assumed roles in both front-end and back-end development, also taking charge as a team leader, facilitating scrum meetings and mentoring colleagues.
+                  <a href="https://johnabbott.qc.ca" target="_blank" rel="noreferrer" className={`${AboutCSS.link}`}> John Abbott College's</a> full-stack application development program in 2023. During an internship at<a href="https://www.kinoklik.ca/" target="_blank" rel="noreferrer" className={`${AboutCSS.link}`}> KinoKlik</a>, I assumed roles in both front-end and back-end development, also taking charge as a team leader, facilitating scrum meetings and mentoring colleagues.
               </p> 
               <p className={`${AboutCSS.aboutText}`}>
                   Post-internship, I joined 
